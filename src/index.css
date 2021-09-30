@@ -1,0 +1,52 @@
+@import-normalize *,
+*:before,
+*:after {
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+body {
+  /* max-width: 1300px; */
+  margin: 0 auto;
+
+  font-family: Andika New Basic, sans-serif;
+  color: #a19f9f;
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 15px;
+}
